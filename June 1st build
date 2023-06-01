@@ -1,0 +1,502 @@
+<tw-storydata name="Alien Space ship June First copy" startnode="" creator="Twine" creator-version="2.2.1" ifid="FC883EE9-FC59-4F41-91F0-E4D042EA6FBD" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script><tw-passagedata pid="1" name="Untitled Passage" tags="" position="603,20" size="100,100">You wake up and see you are on board an Alien Spaceship. Three, massive, fat and oddly attractive female aliens look down on you. Each on is at least a foot taller than you and must weight at least 800 pounds each. 
+
+Your vision is blurry but you can make a [[green one|Look at the Green One]], a [[purple one|Look at the Purple one]], and an [[orange one|Look at the Orange one.]]
+
+
+
+(set: $charm = 0 )
+(set: $weight_gained = 0)
+(set: $Gorga_love = 0)
+(set: $Talosa_love = 0)
+(set: $Laat_love = 0)
+(set: $perv = 0)
+(set: $orange_look to &quot;false&quot;) 
+(set: $purple_look to &quot;false&quot;)
+(set: $green_look to &quot;false&quot;)</tw-passagedata><tw-passagedata pid="2" name="Look at the Orange one." tags="" position="127,208" size="100,100">As your eyes adjust you can see the orange one is a dinosaur like creature. She has a fleshy beak, a ridged forehead and two sets of eyes; one sitting above the other and a pair of glasses for the lower ones. 
+
+She seems to have a no-nonsense attitude about her as she taps away at some sort of tablet with her large, three fingered hands. 
+
+She is also wearing some sort of lab coat like robe, although it looks like she could never close it over her figure. 
+
+And even though she is standing straight on, you can tell she has the [[biggest butt|big butt]] of the three aliens as it sticks out from her sides. 
+{(if: $purple_look is &quot;false&quot; and $green_look is &quot;false&quot;)[
+&lt;p&gt;[[Look at the Purple one]] 
+&lt;p&gt;[[Look at the Green One]] 
+&lt;p&gt;[[&quot;What&#39;s going on Here?&quot;]]]
+
+(if: $purple_look is &quot;true&quot; and $green_look is &quot;true&quot;)[
+&lt;p&gt;[[&quot;What&#39;s going on Here?&quot;]]]
+
+(if: $purple_look is &quot;true&quot; and $green_look is &quot;false&quot;)[
+&lt;p&gt;[[Look at the Green One]] 
+&lt;p&gt;[[&quot;What&#39;s going on Here?&quot;]]]
+
+(if: $purple_look is &quot;false&quot; and $green_look is &quot;true&quot;)[
+&lt;p&gt;[[Look at the Purple one]] 
+&lt;p&gt;[[&quot;What&#39;s going on Here?&quot;]]]
+
+
+(set: $orange_look to &quot;true&quot;)
+} </tw-passagedata><tw-passagedata pid="3" name="Look at the Purple one" tags="" position="586,225" size="100,100">As your eyes adjust you see the purple alien is some kind of  fish like creature. She has one large round eye, with a slit pupil purple and aqua blue iris which pops against her deep magenta skin. She has one fin one the ridge of her head and scales all over her body. 
+
+You also notice that she has the largest belly of the three aliens. In fact it&#39;s hard to see if she even has legs or not. Her belly bounces and sways as she gets closer too you, her long meaty tail whipping behind her. 
+
+She defiantly has arms. Oddly Muscular ones. A peculiar compilation of definition and jiggly fat, ending in four longfingered claws. 
+
+However the next thing you notice is her large mouth, rimmed by some rather sultry, plump lips. But you immediately taken back as she breaks into a sinister grin and [[reveals rows of sharp teeth.|Scream]]     
+
+[[&quot;Hello...you tasty little morsel.&quot;  she says in a husky voice.|&quot;Hello There, Yourself&quot;]] 
+{(if: $green_look is &quot;false&quot; and $orange_look is &quot;false&quot;)[
+&lt;p&gt;[[Look at the Orange one.]] 
+&lt;p&gt;[[Look at the Green One]]
+&lt;p&gt;[[&quot;What&#39;s going on Here?&quot;]]]
+
+(if: $green_look is &quot;true&quot; and $orange_look is &quot;false&quot;)[
+&lt;p&gt;[[Look at the Orange one.]] 
+&lt;p&gt;[[&quot;What&#39;s going on Here?&quot;]]]  
+
+(if: $green_look is &quot;false&quot; and $orange_look is &quot;true&quot;)[
+&lt;p&gt;[[Look at the Green One]] 
+&lt;p&gt;[[&quot;What&#39;s going on Here?&quot;]]]
+
+(if: $green_look is &quot;true&quot; and $orange_look is &quot;true&quot;)[
+&lt;p&gt;[[&quot;What&#39;s going on Here?&quot;]]]}
+
+
+(set: $purple_look to &quot;true&quot;) </tw-passagedata><tw-passagedata pid="4" name="Look at the Green One" tags="" position="1175,346" size="100,100">As your eyes adjust you see the green alien is some sort of plant creature. You could even mistake it for a tree at a distance if it weren&#39;t for all the excitable fidgeting it was doing. 
+
+In place of hair she had a large patch of leaves that created something similar to a messy bob. It covered most of their upper face, where her forehead and eyes would be...if she indeed had any. 
+
+It&#39;s mouth, or approximation of such was made of a series of vertical slits that formed and almost permanent smile. Her arms were made out of vines which playfully swung side to side. 
+
+Her skin resembled that of a fleshy smooth cucumber. Much more malleable, as you could tell from her large swaying chest. It was clearly the biggest of the three, and spilled over her still full figure.       
+
+You could hear that they were trying to stifle a laughing fit, as you could just make out chirps and giggles. 
+
+They finally broke down and  said “Hi” in a higher pitch voice. 
+
+But as they brought their vines down from the wave, they hit a near by try of instruments. Nothing fell but it did make a loud clatter that caused the other to look her way. Her only response was a [[sheepish grin|Chuckle]]. 
+{(if: $purple_look is &quot;false&quot; and $orange_look is &quot;false&quot;)[
+&lt;p&gt;[[Look at the Orange one.]] 
+&lt;p&gt;[[Look at the Purple one]] 
+&lt;p&gt;[[&quot;What&#39;s going on Here?&quot;]]]
+(if: $purple_look is &quot;true&quot; and $orange_look is &quot;false&quot;)[
+&lt;p&gt;[[Look at the Orange one.]] 
+&lt;p&gt;[[&quot;What&#39;s going on Here?&quot;]]]
+(if: $purple_look is &quot;false&quot; and $orange_look is &quot;true&quot;)[
+&lt;p&gt;[[Look at the Purple one]] 
+&lt;p&gt;[[&quot;What&#39;s going on Here?&quot;]] ]
+(if: $purple_look is &quot;true&quot; and $orange_look is &quot;true&quot;)[
+&lt;p&gt;[[&quot;What&#39;s going on Here?&quot;]]]
+}
+(set: $green_look to &quot;true&quot;)</tw-passagedata><tw-passagedata pid="5" name="&quot;What&#39;s going on Here?&quot;" tags="" position="145,682" size="100,100">&quot;What&#39;s going on here?&quot; you say in a confused tone. 
+
+The orange one looks up from her tablet in a cool manner. 
+
+&quot;Greetings Specimen.&quot; she says calmly.“You are in the preliminary stage of an experiment that will test your ability to acquire and maintain mass. Particularly the storage of lipid cells.” She says coldly.  
+
+&quot;I though you said we were just going to see how fat they could get?&quot; Interuped the Green one as she scrached her head with her vines.
+
+The Orange one shot her a quick look but then looked back at the tablet. &quot;Well that is the gest of it.&quot;
+
+The Purple one chuckled a bit, almost sounding like a pur. &quot;I got a good feeling about this one.&quot; she said menancingly. 
+
+You ponder what you have just learned for a moment and then respond:
+{
+&lt;P&gt;[[&quot;Wha...Why?&quot;]]
+&lt;P&gt;[[&quot;Oh this must be a dream...&quot;]]
+&lt;P&gt;[[&quot;Awesome, Let&#39;s do it!&quot;]]
+}</tw-passagedata><tw-passagedata pid="6" name="&quot;Hello There, Yourself&quot;" tags="" position="887,793" size="100,100">The purple alien is taken aback a bit at your response. But she then leans in closer and smiles wider.
+
+&quot;Ooh, I like this one.&quot; She says as she raised a talon to you face. 
+
+&quot;Talosa!&quot; Barks the orange one. &quot;Reframe from touching the subject.&quot;
+
+Talosa coyly waddles back but keeps her eye fixed on you. 
+
+{(if:$orange_look is &quot;false&quot; and $green_look is &quot;false&quot;)[
+&lt;P&gt;[[Look at the Green One]] 
+&lt;P&gt;[[Look at the Orange one.]]
+&lt;P&gt;[[&quot;What&#39;s going on Here?&quot;]]]
+
+(if:$orange_look is &quot;false&quot; and $green_look is &quot;true&quot;)[
+&lt;P&gt;[[Look at the Orange one.]] 
+&lt;P&gt;[[&quot;What&#39;s going on Here?&quot;]]] 
+
+
+(if:$orange_look is &quot;true&quot; and $green_look is &quot;false&quot;)[
+&lt;P&gt;[[Look at the Green One]] 
+&lt;P&gt;[[&quot;What&#39;s going on Here?&quot;]]]
+
+(if:$orange_look is &quot;true&quot; and $green_look is &quot;true&quot;)[
+&lt;P&gt;[[&quot;What&#39;s going on Here?&quot;]]]}
+
+
+(set: $charm to it + (random:1,3) )
+(set: $perv to it + (random:1,3) )
+(set: $Talosa_love to it + (random:1,3))</tw-passagedata><tw-passagedata pid="7" name="Chuckle" tags="" position="1194,731" size="100,100">Your laugh and smile seems to set the green one at ease a little bit. She grins and then looks away sheepishly, again trying to hold back a laugh. 
+{(if: $purple_look is &quot;false&quot; and $orange_look is &quot;false&quot;)[
+&lt;P&gt;[[Look at the Orange one.]] 
+&lt;P&gt;[[Look at the Purple one]] 
+&lt;P&gt;[[&quot;What&#39;s going on Here?&quot;]]]  
+
+(if: $purple_look is &quot;true&quot; and $orange_look is &quot;false&quot;)[
+&lt;P&gt;[[Look at the Orange one.]] 
+&lt;P&gt;[[&quot;What&#39;s going on Here?&quot;]]]  
+
+(if: $purple_look is &quot;false&quot; and $orange_look is &quot;true&quot;)[
+&lt;P&gt;[[Look at the Purple one]] 
+&lt;P&gt;[[&quot;What&#39;s going on Here?&quot;]]] 
+
+(if: $purple_look is &quot;true&quot; and $orange_look is &quot;true&quot;)[
+&lt;P&gt;[[&quot;What&#39;s going on Here?&quot;]]]}
+
+(set: $charm to it + (random:1,3) )
+(set: $Laat_love to it + (random:1,3))</tw-passagedata><tw-passagedata pid="8" name="big butt" tags="" position="49,446" size="100,100">You can&#39;t seem to take your eyes off her tremendously large backside, following the curve as it emerges from a fold on the swell of her back, extends a good 2 feet behind her and then tucks backs into her large stocky thighs.  
+
+It doesn&#39;t help that she has a medium length tail that slowly move back and forth. Even the slightest movements seems to be enough to send her backside into a wobble.
+
+She suddenly seems to notice you staring. You spend a few moments with eyes locked before moving on. 
+
+{(if: $purple_look is &quot;false&quot; and $green_look is &quot;false&quot;)[
+&lt;P&gt;[[Look at the Purple one]] 
+&lt;P&gt;[[Look at the Green One]] 
+&lt;P&gt;[[&quot;What&#39;s going on Here?&quot;]]] 
+
+(if: $purple_look is &quot;true&quot; and $green_look is &quot;false&quot;)[
+&lt;P&gt;[[Look at the Green One]] 
+&lt;P&gt;[[&quot;What&#39;s going on Here?&quot;]]]
+
+(if: $purple_look is &quot;false&quot; and $green_look is &quot;true&quot;)[
+&lt;P&gt;[[Look at the Purple one]] 
+&lt;P&gt;[[&quot;What&#39;s going on Here?&quot;]]]
+
+(if: $purple_look is &quot;true&quot; and $green_look is &quot;true&quot;)[
+&lt;P&gt;[[&quot;What&#39;s going on Here?&quot;]]]}
+
+(set: $perv to it + (random:1,3) )
+(set: $Gorga_love to it + (random:1,3) )</tw-passagedata><tw-passagedata pid="9" name="Scream" tags="" position="561,551" size="100,100">You let out a loud scream that makes the purple alien jump back a little, but also break out into a wheezy laughter. 
+
+&quot;Talosa! Stop antagonizing the subject. You could jeopardize the whole experiment.&quot; the orange one scolds.
+
+The purple one, Talosa, backs away but continues to eye you up and down, a bit of drool on the corner of her mouth. 
+
+{(if: $orange_look is &quot;false&quot; and $green_look is &quot;false&quot;)[
+&lt;P&gt;[[Look at the Orange one.]] 
+&lt;P&gt;[[Look at the Green One]] 
+&lt;P&gt;[[&quot;What&#39;s going on Here?&quot;]]]
+
+(if: $orange_look is &quot;true&quot; and $orange_look is &quot;false&quot;)[ 
+&lt;P&gt;[[Look at the Green One]] 
+&lt;P&gt;[[&quot;What&#39;s going on Here?&quot;]]]
+
+(if: $orange_look is &quot;false&quot; and $green_look is &quot;true&quot;)[ 
+&lt;P&gt;[[Look at the Orange one.]] 
+&lt;P&gt;[[&quot;What&#39;s going on Here?&quot;]]]
+
+(if: $orange_look is &quot;true&quot; and $green_look is &quot;true&quot;)[
+&lt;P&gt;[[&quot;What&#39;s going on Here?&quot;]]] 
+}
+
+
+(set: $charm to it - (random:1,3) )
+(if: $charm &lt; 0) [(set: $charm to 0)]
+
+(set: $Talosa_love to it + (random:1,3))</tw-passagedata><tw-passagedata pid="10" name="&quot;Wha...Why?&quot;" tags="" position="64,1085" size="100,100">You look over at the purple fish alien again and see she is still grinning with a wide tooth smile. 
+
+&quot;Are you going to eat me?&quot; you ask fearfully. 
+
+&quot;We just might.&quot; Said the fish alien without missing a beat.
+
+&quot;We will do no such thing.&quot; Said the orange dinosaur forcefully. &quot;We can not reveal the purpose of this experiment to you at this time...or perhaps ever. But your cooperation would be appreciated. And we have calculated tht the process can be reversed...at a point.&quot; She seemed to mutter that last part. 
+
+[[&quot;I don&#39;t want any part of this&quot;]]
+
+[[&quot;And what do I get in return&quot;]]
+
+[[&quot;Well...if it&#39;s for Science&quot;]] 
+
+[[&quot;Sounds like fun&quot;|&quot;Awesome, Let&#39;s do it!&quot;]]</tw-passagedata><tw-passagedata pid="11" name="&quot;Oh this must be a dream...&quot;" tags="" position="300,863" size="100,100">&quot;I can assure you this is not a dream. Although I should make a note here that your species is capable of such.” Says the orange one. [[Once again returning to her pad.|&quot;Wha...Why?&quot;]] 
+
+She turns to the side a little showing you just how [[massive her butt is in profile|Double Down on the &#39;Dream Theory&#39;]]. 
+
+(set: $dream to &quot;true&quot;)</tw-passagedata><tw-passagedata pid="12" name="&quot;Awesome, Let&#39;s do it!&quot;" tags="" position="708,1053" size="100,100">The the orange one is a little taken back at your enthusiasm. “That&#39;s peculiar. We have observed your species has a certain apprehension towards this behavior.”
+
+“Oh I knew it. We got us a good one.” said the Purple Alien, practically drooling over herself. 
+
+[[“This is going to be fun.”|Feeding room]] said the Green one as she bouncing in place.</tw-passagedata><tw-passagedata pid="13" name="Double Down on the &#39;Dream Theory&#39;" tags="" position="658,1307" size="100,100">&quot;Are you a bartender?&quot; You ask the orange one.
+
+&quot;What an odd question...&quot; she says as she walks up to you with intrigue  &quot;What led you to ask that?&quot;
+
+&quot;Cause you got a fully loaded shelf behind you.&quot; You wink.
+
+The orange one takes a moment to process the meaning of this. Then as she looks behind she realizes you are talking about her buttocks. She stands up straight and releases a &quot;Humph&quot; from her nostrals as her face returns to her no-nonsense expression. 
+
+The purple one wheezes a bit as she also gets the joke and the green just looks puzzled at the interaction.   
+
+&quot;We will have none of that. This is an important science mission that may very well affect the future of both our species.&quot; Says the Orange one sternly &quot;Behave yourself...or else&quot; the orange alien said sternly as it&#39;s [[jiggly behind sloshed and it&#39;s thick tail|Baby]] waved from side to side. [[&quot;Do I make myself clear?!|yes mama]]&quot; 
+
+(set: $charm to it + (random:1,3) )
+(set: $Gorga_love to it + (random:1,3))
+(set: $perv to it + (random:1,3) )</tw-passagedata><tw-passagedata pid="14" name="yes mama" tags="" position="401,1099" size="100,100">Your taken back by the dinosaur Alien&#39;s forcefulness. You shrink back into you seat and decide it&#39;s best not to anger them. [[Who knows what they might do to you.|&quot;Wha...Why?&quot;]]</tw-passagedata><tw-passagedata pid="15" name="Baby" tags="" position="1003,1338" size="100,100">&quot;Calm down, Babe.&quot; You say confidently, as you are sure nothing like this could ever happen in real life. &quot;Why don&#39;t you back that fat ass up and let&#39;s have some fun.&quot;
+
+The Dinosaur&#39;s face erupts into a mix of shock and anger as her eyes go wide. 
+
+&quot;How dare...Get this idiot out of my sight take him to the observation room. Let&#39;s get this done.&quot; barks the Dinosaur as she barly held on to her composure. 
+
+The purple alien grabs your arm and whisper [[&quot;You&#39;re Fun. Let&#39;s have some more!&quot;|Feeding room]]  
+
+(set: $dream to &quot;true&quot;)
+(set: $gorga_annoyed to &quot;true&quot;)</tw-passagedata><tw-passagedata pid="16" name="Feeding room" tags="" position="401,1635" size="100,100">You are taken to a large,round room. The walls are white with panels built into the walls. As you approach the center a chair raises out of the floor. It has soft black cousins that feel wonderfully comfortable when you sit down. 
+
+But as you look closer you see that some things aren&#39;t quite right. You spy a large pizza that seem to have large slices of baloney instead of pepperoni. Tacos are filled with sauerkraut instead of shredded lettuce. You pretty sure the whip cream on the sundaes is just mayonnaise and the &#39;cheesecake&#39; is literally just a large wheel of cheese with chocolate frosting on top.   
+
+[[You take a bite]]
+[[Just sit there|matters]]
+[[Refuse to eat|matters]]</tw-passagedata><tw-passagedata pid="17" name="&quot;I don&#39;t want any part of this&quot;" tags="" position="60,1434" size="100,100">The dinosaur like creature eyes shoot up from her tablet. 
+
+&quot;Noted. But I did say that your cooperation would be appreciated. Not necessary.&quot; she says coldly. 
+
+After a beat to process what you heard, you try to make a run for the door, but the purple alien is already on top of you. She grabs you by your up arms and says, “Oh come on...[[It won&#39;t be that bad...”|Feeding room]], she then leans and whispers sinister, “...after a while.” 
+</tw-passagedata><tw-passagedata pid="18" name="&quot;And what do I get in return&quot;" tags="" position="238,1300" size="100,100">“Aside from the fact that you took part in expanding the knowledge of the universe and all the free nourishment you can handle...”, said the orange one in frustrated tone. She then sighs heavily before continuing. “Aside from that I am to inform you that certain members of this crew has stated on record that they are willing to perform certain...concessions...for you willing involvement.”
+
+“I though you said if we made&#39;m big and fat we could...” started Plant creature before getting cut off.
+
+[[“Let us begin.”|Feeding room]] interrupted the dinosaur loudly.    </tw-passagedata><tw-passagedata pid="19" name="&quot;Well...if it&#39;s for Science&quot;" tags="" position="391,1265" size="100,100">The orange one perks up perks up at this response. 
+
+&quot;Wonderful...another curious mind is always welcomed. Especially considering present company.&quot; she says as she glaced over to the others. 
+
+The others were clearly happy that you were [[volunteering.|Feeding room]] But you could definitely tell that weren&#39;t in this for Academia as you watch the the green on giggle and twitch with excitement. And the purple one was now licking her lips and rubbing her belly.    
+
+(set: $for_science to &quot;true&quot;) </tw-passagedata><tw-passagedata pid="20" name="You take a bite" tags="" position="136,2409" size="100,100">As you take a bite, your taste buds are electrified with flavor. What every they did to this food, it is the most delicious thing you have ever eaten. You can&#39;t help by take another bite. And Another...
+
+The pizza is soon devoured and you move quickly on to the next dish.  You piled up a huge plate of food and shoved it in your face. Chewing it slowly so you could taste each and every bite, taking a break only to catch your breath.
+{
+&lt;p&gt;(if: $gorga_watch is &quot;true&quot;)[&quot;Very good.&quot; says the orange alien satisfied with her work. &quot;Now if you&#39;ll excuse me I need to monitor this in main observation room.&quot; She turns and walks out, her round bottom swaying back and forth the only thing that can pull your attention way from the food for just a moment.]
+
+&lt;p&gt;(if: $talosa_watch is &quot;true&quot;)[Talosa watches with a huge grin on her face. &quot;You like that don&#39;t you.&quot; she remarks as she licks her lips. &quot;You&#39;re going to be such a fattie.&quot;]  
+
+&lt;p&gt;(if: $laat_watch is &quot;true&quot;)[The green aliens shrieks happily as she watches you consume her meal. “Oh you really like it?! Oh thank you!” She bounces in place. She then wraps her vines around you in a big hug and smothers you with her chest, stopping your gorging for a moment. 
+
+&lt;p&gt;“Laat!”, you hear the orange alien&#39;s voice bark over an intercom. “What did we say about touching during an experiment?” 
+
+&lt;p&gt;“Oh...sorry” responds the overjoyed plant. “I&#39;ll just...watch.” She then moves to the far side of the table and props her head on her vines to watch you with a huge smile. 
+
+&lt;p&gt;You go back to eating but very once in a while glance over at her huge boobs resting atop the table.  ]
+
+&lt;p&gt;(if: $gorga_mad_watch is &quot;true&quot;)[Satisfied with her work, the alien turns around and stomps out of the room. The only thing taking your mind off the food for a moment is watching her backside bopping up and down rabidly with her angry stride. 
+
+&lt;p&gt;&quot;Worth it.&quot; you think to yourself.]  
+
+&lt;p&gt;You ate and ate and ate...until you had finished every morsel of food. Your stomach was tight and distended and your belly grumbling loudly as the food sloshed around inside. 
+
+&lt;P&gt;You can&#39;t tell if you are actually satisfied or if you&#39;ve only stopped because they is no food left. You also feel like you&#39;re in a complete daze and soon drift off to sleep. } 
+
+&lt;p&gt;[[Wake up]]</tw-passagedata><tw-passagedata pid="21" name="Wake up" tags="" position="108,2614" size="100,100">Your eyes open slowly as you wake up from a deep slumber.  As you shift in place you notices that moving is a little more difficult. You open your eyes and are greeted with a round belly as you look down. 
+
+You then try to shoot up out of the bed, but it takes several attempts. When you finally get up you confirm that your middle has gotten fatter.
+
+Basketball size ring of fat wraps around your middle. Your belly sticks out and is starting to descend, making a distinct crease on your thighs, which have also grown wider. You run you had down you sides and feel developing love handles. And you&#39;ve noticed the new sensation of jiggling when you move to fast, especially in haunches.   
+
+{(if: $dream is &quot;true&quot;)[
+&quot;Man this dream is getting weird.&quot; you remark as you feel you belly.] 
+(else:)[
+&quot;Oh m&#39;gawd! I&#39;m huge!&quot;, you say in disbelief.]
+}</tw-passagedata><tw-passagedata pid="22" name="matters" tags="" position="701,1689" size="100,100">{(set:$number to (random:1,3))
+
+(if:$number is 1)[
+In waddles the purple alien, their enormous, round belly wobbling and shifting with every step.
+
+&lt;p&gt;“Well what&#39;s the matter, human? Why aren&#39;t you eating all this tasty food?”  She asked through a her toothy grin in a mocking tone.
+
+&lt;p&gt;&quot;This food...is not right. It&#39;s all mixed up.&quot; you respond. 
+
+&lt;P&gt;&quot;So what?!&quot;, she laughs. &quot;It&#39;s all going to the same place anyway.&quot; she says as she grabs her own belly by hunks of flab and starts  to shake it. Your eyes are transfixed for a moment as as you watch it jiggle and bounce. &quot;You like my belly, don&#39;t you?
+
+&lt;p&gt;[[&quot;Yeah I do&quot;]]
+&lt;p&gt;[[&quot;No of course not, it&#39;s gross!&quot;]]
+&lt;p&gt;[[&quot;I like the green one better&quot;|Ultimatum]]
+&lt;p&gt;[[&quot;I like the orange one better&quot;|Ultimatum]]]
+
+(if:$number is 2)[ 
+In waddles the green alien. She sheepishly tilts her head around, scanning the room with unseen eyes thru the canopy of her leafy hair. She gingerly makes her way over you, her large, bouncing chest proceeding her. 
+
+&lt;p&gt;“Gorga sent me down. Is everything alright? You haven&#39;t eating anything. Did I do a bad job” she asked, her usually demeanor replaced with one of nervousness.
+
+&lt;p&gt;“Umm, well it&#39;s just...that the ingredients are mixed up.” you reply honestly but with hesitation.  The green alien&#39;s shoulders slump and she hangs her head. 
+
+&lt;p&gt;“Oh I knew it! I goofed up again! Why can&#39;t I do anything right?!” She moans as she wraps her vines around her head.
+
+&lt;p&gt;[[&quot;It&#39;s ok! I&#39;m sure it&#39;s good&quot;|You take a bite]]
+&lt;p&gt;[[&quot;Sorry but this is gross.&quot;]]
+&lt;p&gt;[[&quot;Don&#39;t feel bad. Everyone makes mistakes&quot;]]
+(set: $laat_watch to &quot;true&quot;)] 
+
+
+(if:$number is 3)[
+The orange alien soon waddles into the room and you swear her round back side nearly grazes the the sides of the door as she enters.
+
+(if: $gorga_annoyed is &quot;true&quot;)[&lt;p&gt;“What is it Now!?”, barked the dinosaur, cleanly still annoyed from your earlier iterations.] 
+
+(else:)[&lt;p&gt;&quot;Please execute the experinet human. I think you&#39;ll find that the meal Laat has prepared is quite enjoyable. If you do not cooperate, I&#39;m afraid that the alternative could be...unpleasent.&quot; She says in a matter of fact tone.]
+
+&lt;p&gt;“This all...doesn&#39;t look quite right.”, you say as you point to the food. 
+
+&lt;p&gt;“True it is...an approximation. But I can assure you it is safe and delicious. Eat. Now.” She said in a sterner tone.
+&lt;p&gt;[[You take a bite]]
+&lt;p&gt;[[Refuse]]
+&lt;p&gt;[[&quot;Let me touch your butt first.&quot;]] 
+(set: $gorga_watch to &quot;true&quot;) ] 
+}</tw-passagedata><tw-passagedata pid="23" name="&quot;Yeah I do&quot;" tags="" position="101,1898" size="100,100">She chuckles at this response. &quot;You want to touch it it?&quot; she asks through a coy smile. She rolls forward and hefts her belly a little closer to you. 
+
+With hesitation you place one two fingers on it at first, feeling how soft it is. Then you place your whole palm on it and feel a kind of comfortable coolness, like the other side of a pillow. She moans a little as the warmth from your hand transfers to her body. You can tell she is enjoying the sensation. 
+
+Almost instinctively, you place your other hand on her belly and now you slightly kneading it. She let&#39;s out a louder moan. 
+
+But before things can get any further, you hear over a speaker. “Um hmm!” You recognize it as the orange alien. 
+
+“Talosa, you were sent to see if you could persuade the subject to participate in the experiment. If we could move things along.”
+
+Talosa, looks at you. “Feels nice right? So why don&#39;t you grow your own and we can have twice the fun.” she says through a low murmur.
+{(set: $talosa_watch to &quot;true&quot;)
+&lt;p&gt;[[You take a bite]]
+&lt;p&gt;[[Refuse]]
+}</tw-passagedata><tw-passagedata pid="24" name="&quot;No of course not, it&#39;s gross!&quot;" tags="" position="400,1902" size="100,100">She looks at you for a moment. Then her mouth breaks out into a tooth grin.
+
+&quot;You&#39;re a terrible lair.&quot; She declares in a gutteral pur. &quot;You want to touch it. And I WANT you to touch it. So go ahead.&quot;
+
+She gets a little closer and [[offers you a feel once more.|&quot;Yeah I do&quot;]] 
+
+[[Refuse]]
+
+(Set: $talosa_watch_rub_refuse to &quot;true&quot;)
+</tw-passagedata><tw-passagedata pid="25" name="Ultimatum" tags="" position="816,2445" size="100,100">An expression of disappointment flashed across her face for a split second. But her toothy grin soon returned. 
+
+“Fair enough...”, she admitted. “...but I&#39;m the muscle on the ship. I&#39;m here to make sure you stay in line.  Which mean your going to be seeing a lot of me. And I better be seeing a lot of you soon.” she finisher in almost a gravely hyena laugh. 
+
+“Now, are you going to play nice?”
+
+[[You take a bite]]
+
+[[Refuse]]
+(set: $talosa_watch_rub_refuse to &quot;true&quot;)</tw-passagedata><tw-passagedata pid="26" name="Refuse" tags="" position="499,2501" size="100,100">{
+&lt;p&gt;(if: $gorga_watch is &quot;true&quot;)[&quot;Hmm I was hoping it wouldn&#39;t come to this.&quot; says the orange alien as she taps a button on her tablet.]
+&lt;p&gt;(if: $gorga_mad_watch is &quot;true&quot;)[The aliens chubby cheeks turn an even deep purple than before, as she face contorts into a snarl. 
+&lt;p&gt;“WHY YOU ODIOUS LITTLE THRAAK-SW&#39;THAPER!” she yells. Then she hits a button on her tablet.]  
+&lt;p&gt;Suddenly clamps pop out of the chair, securing your wrists and ankles. You try to thrash yourself loose but soon pads appears on the sides of your torso and head, restricting your movements even further. 
+&lt;p&gt;Then mechanic arms pop down from the ceiling and start grabing at the food and bring it up to you lips.
+&lt;p&gt;(if:$talosa_watch_rub_refuse is &quot;true&quot;)[&quot;Sorry, Cutie...&quot; remarked the purple alien with a grin. &quot;...We tried to play nice...but that&#39;s ok...I like it ROUGH anyway.&quot;] 
+&lt;p&gt;(if: $gorga_watch is &quot;true&quot;)[&quot;Again, I apologize. But my work is just too important.&quot; says the orange alien.]
+&lt;p&gt;(if: $laat_watch is &quot;true&quot;)[&quot;Oh no! Did I mess up again?&quot; cries the plant creature.]
+&lt;p&gt;After a struggle the robot limbs finally force [[some food into your mouth.|You take a bite]]}
+
+</tw-passagedata><tw-passagedata pid="27" name="&quot;Sorry but this is gross.&quot;" tags="" position="1088,1709" size="100,100">“Can&#39;t you just try a little. I&#39;m sure you&#39;ll like it.” asked the green alien in a sweet hopeful voice. 
+
+You look at the food once again and still can&#39;t get over how eerie the spread looks. Then you look back  at the pleading plant girl who seems genuinely upset that she displeased you. She continues to fidget and hop in place as she waits for your answer.
+
+[[&quot;I&#39;m sorry I just can&#39;t&quot;|Refuse]]
+
+[[&quot;Ok I&#39;m try it.&quot;|You take a bite]]
+
+[[&quot;Let me touch your boobs first!&quot;]]</tw-passagedata><tw-passagedata pid="28" name="&quot;Don&#39;t feel bad. Everyone makes mistakes&quot;" tags="" position="996,1510" size="100,100">{(set:$number to (random:1,3))
+
+&lt;p&gt;You take a moment to console the green alien and commended her efforts. 
+
+&lt;p&gt;“Really. Thanks.” She says as she sniffles a little. “I did do my best. Talosa and Gorga said that if I did a good job then we might be able to spend time together.&quot;  
+
+&lt;p&gt;&quot;What does that mean?&quot; you ask her. 
+
+&lt;p&gt;“You know if you get fat enough we can (if:$number is 2)[let humans into the federation.&quot;](if:$number is 1)[use you to make more babies.&quot;](if: $number is 3)[make you our new king.&quot;]}
+
+&quot;Damn it, Laat.&quot; you hear the orange dinosaur over an intercom.  
+
+Then you hear some sore of machine [[turing on.|Refuse]]</tw-passagedata><tw-passagedata pid="29" name="&quot;Let me touch your butt first.&quot;" tags="" position="982,2247" size="100,100">A look of shock streaks across her face as her cheeks turn purple. Is she mad or is she blushing?
+
+&quot;Ah...A...OF ALL THE...&quot; she stammers. She looks you over for a few moments and regains her composure.
+
+&quot;... Fine...&quot; she says in a sharp but cold tone. &quot;If it will get you to cooperate.&quot;
+
+She then pivotes in place, shifting her weight back and forth until her large round buttocks are pointed towards you.
+
+You slowly place your hand on the large mound of flesh and are surprise by the warmth and how tone it is. There was was more fat than muscle but still.
+
+As you you start to knead her backside a bit, you can hear her say.&quot;Oh&quot; in a pleasently surprised tone.  Then she quickly clears her throat, move forward, leaving you hand in the air and  start to turn around.
+
+&quot;There. You&#39;ve had your fun. No will you proceed?&quot; 
+
+[[&quot;A deal is a deal&quot;|You take a bite]]
+
+[[&quot;Nah, Bitch. I just tricked you&quot;|Refuse]]
+
+(set:$gorga_mad_watch to &quot;true&quot;)
+(set: $gorga_watch to &quot;false&quot;)</tw-passagedata><tw-passagedata pid="30" name="&quot;Let me touch your boobs first!&quot;" tags="" position="1200,1902" size="100,100">“My what?” asks the green alien in confusion. After a long time of looking around, she follows you gaze to her large chest resting on her belly. 
+
+“OH!” she says in suddenly realization. “My tubers. Yeah, sure, they are fun to touch. But not to hard. They might bust and I got start over again.” She says as she waddles over and leans close to you. 
+
+After a moment you gently cup underneath her chest and feel the heft as they slosh in your palms. The green alien starts to giggle as he feels you touch. She starts to move closer and starts caressing you arms with her vines when suddenly a voice interrupts over an intercom. 
+
+“Laat, is this act totally necessary to getting the subject to comply?” You recognize the sound of the orange alien.
+
+“What...wah...um...is it?”, the green alien asks you in a ditsy manner, clearly still distracted from your touch. 
+
+[[&quot;Alright, I&#39;ll try it|You take a bite]]
+
+[[&quot;You&#39;re cute...but this is still gross.&quot;|Refuse]]</tw-passagedata></tw-storydata>
